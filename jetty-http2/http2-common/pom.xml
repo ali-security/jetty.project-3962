@@ -8,18 +8,19 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>http2-common</artifactId>
+  <version>9.4.57.v20241219+sp1</version>
   <name>Jetty :: HTTP2 :: Common</name>
 
   <dependencies>
     <dependency>
       <groupId>org.eclipse.jetty.http2</groupId>
       <artifactId>http2-hpack</artifactId>
-      <version>${project.version}</version>
+      <version>9.4.57.v20241219</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-jmx</artifactId>
-      <version>${project.version}</version>
+      <version>9.4.57.v20241219</version>
       <optional>true</optional>
     </dependency>
     <dependency>
