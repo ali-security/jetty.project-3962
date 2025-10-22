@@ -32,4 +32,4 @@ etc/jetty-http2c.xml
 # jetty.http2c.maxSettingsKeys=64
 
 ## Max number of bad frames and pings per second
-# jetty.http2c.rateControl.maxEventsPerSecond=50
+# jetty.http2c.rateControl.maxEventsPerSecond=128
